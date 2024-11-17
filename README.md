@@ -8,17 +8,29 @@ Features:
 The dataset consists of the following columns:
 
 Item_Identifier: Unique identifier for each product item.
+
 Item_Weight: Weight of the product item (in kg).
+
 Item_Fat_Content: Categorized as 'Low Fat' or 'Regular', representing the fat content of the item.
+
 Item_Visibility: The visibility of the item in the store, represented by a numeric value between 0 and 1.
+
 Item_Type: The category or type of the item (e.g., Dairy, Meat, Fruits and Vegetables).
+
 Item_MRP: Maximum Retail Price (MRP) of the item.
+
 Outlet_Identifier: Unique identifier for each outlet (store).
+
 Outlet_Establishment_Year: The year the outlet was established.
+
 Outlet_Size: The size of the outlet (e.g., Small, Medium, High).
+
 Outlet_Location_Type: The location of the outlet (e.g., Tier 1, Tier 2, Tier 3).
+
 Outlet_Type: The type of outlet (e.g., Supermarket, Grocery Store).
+
 Item_Outlet_Sales: The target variable, representing the sales of the item in the outlet.
+
 Objective:
 The objective of this project is to forecast sales (Item_Outlet_Sales) for each item in the dataset based on the provided features. This is a regression problem, as the goal is to predict a continuous value (sales).
 
